@@ -1,0 +1,12 @@
+.myGrid {
+    height: 80vh;
+}
+
+
+[role="row"]:hover [role="gridcell"] {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.ui-grid-contents-wrapper{
+    overflow:hidden;
+}

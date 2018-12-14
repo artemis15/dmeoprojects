@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Historical Data</title>
+
+
+<link rel="stylesheet" href="../CSS/bootstrap.min.css">
+<link rel="stylesheet" href="../CSS/bootstrap-theme.min.css">
+    <script src="../libs/jquery.min.js"></script>
+    <script src="../libs/bootstrap.min.js"></script>
+    <script src="../libs/angular.min.js"></script>
+    <script src="../libs/angular-route.min.js"></script>
+    <script src="../libs/angular-sanitize.min.js"></script>
+    <script src="../libs/ui-grid.min.js"></script>
+    <script src="../controller/main.js"></script>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/ui-grid.css">
+</head>
+<body ng-app="historicalApp">
+<div ng-controller="gridCTRL">
+
+<div class="panel panel-success">
+<div class="panel-heading">My Incidents</div>
+<div class="panel-body">
+<div class="table-responsive">
+<div ui-grid="gridOptions" ui-grid-exporter ui-grid-selection ui-grid-pagination class="myGrid" ></div>
+</div>
+
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
